@@ -1,10 +1,12 @@
+import Contact from './components/contact'
 import './App.css'
+
 
 function App() {
 
   return (
     <>
-      <h1>Hola</h1>      
+      <div><Contact/></div>      
     </>
   )
 }
