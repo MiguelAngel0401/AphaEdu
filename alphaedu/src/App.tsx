@@ -1,12 +1,13 @@
-import './App.css'
+import Footer from "./components/footer"
 
-function App() {
 
+export default function App() {
   return (
-    <>
-      <h1>Hola</h1>      
-    </>
-  )
-}
+    <div className="min-h-screen flex flex-col">
+      <div className="flex-grow"></div>
+      <div className="border h-1 text font-extrabold">AlphaEdu Site <Footer/> </div>
+    </div>
 
-export default App
+  )
+
+}
