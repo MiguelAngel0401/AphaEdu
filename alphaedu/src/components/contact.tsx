@@ -1,5 +1,10 @@
+import Footer from "./footer";
+import Navbar from "./Navbar";
+
 export default function Contact() {
   return (
+    <>
+    <Navbar />
     <div className="max-w-sm mx-auto mt-10 p-4">
       <h2 className="text-lg font-bold mb-3">Contacto</h2>
       <form onSubmit={e => e.preventDefault()}>
@@ -23,5 +28,7 @@ export default function Contact() {
         </button>
       </form>
     </div>
+    <Footer />
+    </>
   )
 }

@@ -1,6 +1,10 @@
+import Footer from "./footer";
+import Navbar from "./Navbar";
+
 export default function About() {
     return (
         <>
+            <Navbar />
             <div className="flex flex-col md:flex-row items-center md:items-start justify-center gap-30 p-6">
 
                 <img src="/logo.jpg" alt="logo" />
@@ -18,7 +22,7 @@ export default function About() {
                         </ul>
                 </div>
             </div>
-
+            <Footer />
         </>
     )
 }
