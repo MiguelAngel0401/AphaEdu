@@ -1,5 +1,4 @@
 import Contact from './components/contact'
-import './App.css'
 
 
 function App() {
