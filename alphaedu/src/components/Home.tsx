@@ -5,22 +5,19 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="min-h-screen bg-gradient-to-br from-blue-100 to-purple-200 flex flex-col items-center justify-center text-center px-4">
-        <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6">
-          Bienvenidos a <span className="text-purple-700">Alpha Edu</span>
+      <div className="min-h-screen bg-blue-100 flex flex-col items-center justify-center text-center p-6">
+        <h1 className="text-4xl font-bold text-gray-800 mb-4">
+          Bienvenidos a <span className="text-blue-600">Alpha Edu</span>
         </h1>
-        <p className="text-xl text-gray-700 mb-12">
-          Un proyecto desarrollado con dedicación por nuestro equipo de desarrollo
+        <p className="text-lg text-gray-700 mb-8 max-w-xl">
+          Nuestra plataforma está diseñada para promover el proceso de aprendizaje autonomo para todos los tipos de usuarios de manera gratuita y eficaz.
         </p>
 
-        <div className="bg-white shadow-lg rounded-2xl p-8 max-w-2xl w-full">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">Desarrolladores</h2>
-          <ul className="space-y-2 text-gray-600 text-lg">
-            <li>• Eric Hernandez Hernandez</li>
-            <li>• Jose Marcos Conde Vazquez</li>
-            <li>• Perez Quiroz Abraham</li>
-            <li>• Miguel Angel Islas Mendez</li>
-          </ul>
+        <div className="bg-white rounded-lg shadow p-6 w-full max-w-md">
+          <h2 className="text-xl font-semibold text-gray-800 mb-2">¿Qué es Alpha Edu?</h2>
+          <p className="text-gray-700 text-base">
+            Es un sistema pensado para facilitar el proceso de aprendizaje con nuevos cursos educativos para todos los usuarios y expandir su conocimiento y ayudarse entre distintos usuarios.
+          </p>
         </div>
       </div>
       <Footer />
